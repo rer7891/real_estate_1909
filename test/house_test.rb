@@ -64,6 +64,5 @@ class HouseTest < Minitest::Test
 
     assert_equal rooms_by_category, @house.rooms_by_category
     refute_equal wrong_rooms, @house.rooms_by_category
-
   end
 end
